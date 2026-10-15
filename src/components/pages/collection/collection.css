@@ -1,0 +1,111 @@
+.collection-container{
+    width: 63rem !important;
+    height: 90%;
+    /* background-color: blue; */
+   
+}
+.collection-header-wrapper{
+    width: 100%;
+    height: 5rem;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection-heading-wrapper{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 7px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.collection-heading-wrapper h6{
+ font-size: 13px;
+ font-family: "DM Sans", system-ui, sans-serif;
+ font-weight: 400;
+ color:rgb(212, 132, 58);
+}
+.collection-heading-wrapper h2{
+ font-size: 45px;
+ color: #fff;
+ font-weight: 700;
+}
+.collection-btns-wrapper{
+    width: 35%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    padding-top: 20px;
+    
+}
+.collection-btns-wrapper button:first-child{
+ width: 20%;
+ height: 35px;
+ font-family: "DM Sans", system-ui, sans-serif;
+ font-weight: 400;
+ background-color: transparent;
+ border: 1px solid rgb(47,30,15);
+ color: rgb(47,30,15);
+ 
+}
+.collection-btns-wrapper button{
+    width: 25%;
+    height: 35px;
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid rgb(47,30,15);
+    color: rgb(47,30,15);
+   }
+   .collection-btns-wrapper button.active{
+    background-color: rgb(140,39,3);
+     color: rgb(255, 255, 255);
+   }
+
+   .collection-image-container{
+    width: 100%;
+    height: 55rem;
+    background-color:rgb(17,10,2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 20px;
+   }
+   .collection-image-wrapper{
+    width: 92%;
+    height: 100%;
+    /* background-color: rgb(185, 54, 76); */
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+   }
+   .view-all-pieces-wrapper{
+    width: 100%;
+    height: 16%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-all-pieces-wrapper button{
+    width: 22%;
+    height: 3.2rem;
+    background-color: transparent;
+    border: 1px solid rgb(47,30,15);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(47,30,15);
+    font-family: "DM Sans", system-ui, sans-serif;
+
+
+}

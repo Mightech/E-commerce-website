@@ -1,0 +1,58 @@
+.commission-container{
+    width: 100%;
+    height: 20rem;
+    background-color:rgb(32,21,12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commission-wrapper{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+}
+.bespoke-wrapper{
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(201,119,34);
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 17px;
+}
+.commision-wrapper{
+    width: 100%;
+    height: 38%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: white;
+}
+.commission-btn{
+    width: 100%;
+    height: 35%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commission-btn button{
+    width: 40%;
+    height: 42%;
+    border: none;
+    font-family: "DM Sans", system-ui, sans-serif;
+    background-color: rgb(140,40,3);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}

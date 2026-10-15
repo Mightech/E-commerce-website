@@ -1,0 +1,102 @@
+.confirmationpage-container{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(17,11,3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirmationpage-wrapper{
+    width: 42%;
+    height: 95%;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.confirmation-sucessful-wrapper{
+    width: 100%;
+    height: 85px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 35px;
+    font-size: 20px;
+    color: white;
+}
+.confirmation-sucessful-wrapper section{
+    width: 40px;
+    height: 40px;
+   font-size: 30px;
+   background-color: rgb(189, 59, 12);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.confirmation-sucessful-wrapper h5{
+    color: rgb(187, 183, 179);
+    font-size: 15px;
+}
+.confirmation-thankyou-wrapper{
+    width: 100%;
+    height: 95px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 47px;
+    color: white;
+    margin-bottom: 17px;
+}
+.confirmation-writeup-wrapper{
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 27px;
+    color: rgb(187, 183, 179);
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+.long-text{
+    width: 92%;
+}
+.confirmation-product-box-wrapper{
+    width: 100%;
+    height: 156px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirmation-product-box{
+    width: 85%;
+    height: 100%;
+    border: 1px solid rgb(46,19,4);
+    background-color: rgb(12,7,2);
+}
+.confirmation-btn{
+    width:100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirmation-btn button{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(189, 59, 12);
+    color: white;
+    border: none;
+}

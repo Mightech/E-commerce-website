@@ -1,0 +1,129 @@
+.hero-container{
+    width: 100%;
+    height: 650px;
+    background-color:rgb(18,10,3);
+ 
+  
+}
+.hero-text-wrapper{
+    width: 48%;
+    height: 75%;
+    /* background-color: yellow; */
+    margin-left: 29px;
+}
+.first-text-wrapper{
+    width: 65%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-size: 12px;
+    color:rgb(212, 132, 58);
+    font-weight: 400;
+}
+.text-wrapper{
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    font-size: 2.0em;
+    font-weight: 700;
+    /* line-height: 30px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(208,199,185);
+}
+.sub-text-wrapper{
+    width: 75%;
+    height: 50px;
+    /* background-color: rgb(255, 0, 170); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(168, 144, 110);
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-size: 14.5px;
+    font-weight: 400;
+   
+}
+.btns-wrapper{
+    width: 100%;
+    height: 70px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+ .button-collection{
+    width: 50%;
+    height: 45px;
+    background-color: rgb(140,39,3);
+    color: white;
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+.button-story{
+    width: 30%;
+    height: 45px;
+    background-color: transparent;
+    border: 1.5px solid rgb(95,59,25);
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(97,60,26);
+}
+
+
+    .marquee-wrapper {
+        width: 100%;
+        height: 53px;
+        overflow: hidden; 
+        background-color: rgb(28,14,4) ;
+        border-top: 1px solid rgb(134,38,4);
+        border-bottom: 1px solid rgb(134,38,4);
+        padding: 15px 0;
+        
+      }
+      
+      .marquee-content {
+        display: flex;
+        width: max-content;
+        animation: marquee 20s linear infinite;
+        
+        
+      }
+      
+      .marquee-box {
+        display: flex;
+        /* align-items: center; */
+        gap: 10px;
+        margin-right: 60px;
+        white-space: nowrap;
+        
+      }
+      
+      .marquee-box p {
+        margin: 0;
+        color:rgb(168, 144, 110);
+        
+      }
+      
+      .marquee-box h4 {
+        margin: 0;      
+        color:rgb(168, 144, 110);
+      }
+      
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+      
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      

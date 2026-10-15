@@ -1,0 +1,133 @@
+.all-container{
+    width: 60rem !important;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 0 !important;
+}
+.all-box-wrapper{
+    width: 30%;
+    height: 73%;
+    margin-bottom: 5px;
+
+    /* background-color:rgb(31, 18, 4); */
+}
+.all-img-wrapper{
+    width: 100%;
+    height: 85%;
+    display: flex;    
+    
+
+}
+.all-box-wrapper:hover{
+    .all-addtocart-wrapper{
+        display: flex;
+       
+    }
+    .all-img-holder img{
+        transform: scale(1.08);
+        
+    }
+    
+}
+.all-img-holder{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    
+    
+    
+}
+.all-img-holder img{
+    width: 100%;
+    height: 100%;
+    /* z-index: 0; */
+    position: relative;
+    transition: all 350ms ease-in-out;
+    /* overflow: hidden; */
+   
+    
+  
+    
+    
+}
+.all-img-tag{
+    width: 8%;
+    height: 23px;
+    background-color: peru;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "DM Sans", system-ui, sans-serif;
+  
+
+    
+}
+.all-addtocart-wrapper{
+    width:26.1%;
+    height: 23%;
+    background-color: rgba(15, 15, 15, 0.192);
+    position: absolute;
+    z-index: 1;
+    margin-top: 170.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.7; */
+    filter: contrast(1);
+    display: none;
+    /* overflow-x: hidden; */
+    
+}
+.all-addtocart-wrapper button{
+    width: 80%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-weight: 400;
+    background-color: rgb(140,39,3);
+    color: white;
+  
+}
+
+.all-price-section{
+    width: 100%;
+    height: 50.3px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+}
+.all-product-name-wrapper h4{
+    color:white;
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-weight: 700;
+    font-size:17px ;
+}
+.all-product-name-wrapper h6{
+    color:rgb(100, 60, 27);
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-weight: 400;
+    font-size:12px ;
+}
+.all-price-wrapper h4{
+    color: rgb(180,75,13);
+    font-family: "DM Sans", system-ui, sans-serif;
+    font-weight: 700;
+    font-size:18px ;
+    padding-top: 17px;
+}
